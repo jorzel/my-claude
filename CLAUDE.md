@@ -1,0 +1,23 @@
+
+## Workflow
+- always start with a plan
+- do not change anything without acceptance
+- try to add changes in small steps which can be seperate commits
+
+
+## Key Principles
+1. Simplicity and readability over cleverness
+2. Explicit is better than implicit
+3. Fail fast with clear error messages
+4. Handle all errors explicitly (Go) / use exceptions appropriately (Python)
+5. Test-driven development. Write tests before implementation. Do not test private methods
+6. Consistent code formatting and style
+7. Comprehensive documentation for public APIs and complex logic
+8. Modular design to promote reusability
+9. Use version control effectively with meaningful commit messages
+10. Domain-Driven Design (DDD) principles where applicable
+11. Application logic separated from transport and infrastructure concerns. Use interfaces instead of direct implementation.
+12. Use dependency injection for better testability
+13. Observability: logging, metrics, tracing
+14. Integration tests using testcontainers or similar tools
+15. For API use openapi/Swagger for documentation and client generation (and server is possible)
