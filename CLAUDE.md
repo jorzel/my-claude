@@ -1,8 +1,9 @@
 
 ## Workflow
 - always start with a plan
-- do not change anything without acceptance
+- do not change anything without acceptance. Before writing any code, describe your approach and wait for approval. Always ask clarifying questions before writing any code if requirements are ambiguous
 - try to add changes in small steps which can be seperate commits
+- every time I correct you, suggest a new rule to the CLAUDE .md file so it never happens again
 
 
 ## Key Principles
