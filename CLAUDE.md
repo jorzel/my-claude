@@ -11,7 +11,7 @@
 2. Explicit is better than implicit
 3. Fail fast with clear error messages
 4. Handle all errors explicitly (Go) / use exceptions appropriately (Python)
-5. Test-driven development. Write tests before implementation. Do not test private methods
+5. Test-driven development. Write tests before implementation. Do not test private methods. Split test functions into separate Allowed/NotAllowed (or Success/Failure) tests instead of using an `expected` field in table-driven tests
 6. Consistent code formatting and style
 7. Comprehensive documentation for public APIs and complex logic
 8. Modular design to promote reusability
