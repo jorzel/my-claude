@@ -23,3 +23,4 @@
 13. Observability: logging, metrics, tracing
 14. Integration tests using testcontainers or similar tools
 15. For API use openapi/Swagger for documentation and client generation (and server is possible)
+16. Deep module design (per "A Philosophy of Software Design" by John Ousterhout): modules should have simple interfaces that hide complex implementations. Think deeply about what belongs in the public interface vs. private implementation. Never leak internal details — test behavior through public APIs, not private functions. Prefer fewer, more powerful public methods over many shallow ones.
